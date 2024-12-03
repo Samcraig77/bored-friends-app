@@ -1,0 +1,30 @@
+:root {
+    --background-color: #7a7a7a;
+    --btn-text-color: #ffffff;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    height: 75vh;
+    justify-content: center;
+}
+
+.submit-btn {
+    padding: 1em 2em;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: var(--background-color);
+    color: var(--btn-text-color);
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
